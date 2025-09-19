@@ -36,13 +36,11 @@ color:green;
 &emsp;
 ?autoplay=1&mute=1&enablejsapi=1
 <FONT SIZE=+4><b>NOME⚫</b></FONT>
-&#9776; C A T E G O R I A S &#9776;
+<b>&#9776; C A T E G O R I A S &#9776;</b>
+<!--------------------------------------------
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_icon_bar_h
 
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
-
-
-
-<!------------------------------------------------------>
+-------------------------------------->
 <!---------------------------------------------------------------------------------->
 <!--##############################################################################-->
 <!--##############################################################################-->
@@ -50,463 +48,100 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
 <!--##############################################################################-->
 <!--##############################################################################-->
 <!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
 <!DOCTYPE html><html><head>
 <meta name="viewport" content="width=device-width, initial-scale=1"><style>
-body {
-  font-family: "Lato", sans-serif;
-}
-.sidepanel  {
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  height: 690px;
-  top: 0;
-  left: 0;
+body {margin:0;}
+.navbar {
+  overflow: hidden;
   background-color: #000000;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-.sidepanel a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #f0fc03;
-  display: block;
-  transition: 0.3s;
-}
-.sidepanel a:hover {
-  color: #03fc13;
-
-.sidepanel .closebtn {
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: 25px;
+  width: 100%;
+}
+.navbar a {
+  float: center;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+.navbar a:hover {
+  background: #00ff08;
+  color: black;
+}
+.main {
+  padding: 0px;
+  margin-top: 80px;
+  height: 500px; /* Used in this example to enable scrolling */
+}
+</style></head><body><div class="navbar">
+
+<!DOCTYPE html><html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>
+body {margin:0;}
+.icon-bar {
+  width: 100%;
+  background-color: #0b03fc;
+  overflow: auto;
+}
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.0s ease;
+  color: white;
   font-size: 36px;
 }
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
+.icon-bar a:hover {
+  background-color: #03fc30;
 }
-.openbtn:hover {
-  background-color:#444;
+.active {
+  background-color: #03fc30;
 }
-</style></head><body><div id="mySidepanel" class="sidepanel"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a>
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<hr class="new5">
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!DOCTYPE html><html><head>
-<meta name="viewport" content="width=device-width, initial-scale=1"><style>
-* {
-  box-sizing: border-box;
-}
-#myInput {
-  background-image: url('/css/searchicon.png');
-  background-position: 10px 12px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 12px solid RED;
-  margin-bottom: 12px;
-}
-#myUL {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-#myUL li a {
-  border: 1px solid #ddd;
-  margin-top: -1px; /* Prevent double borders */
-  background-color: #f6f6f6;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  color: blue;
-  display: block
-}
-#myUL li a:hover:not(.header) {
-  background-color: #eee;
-}
-</style></head><body><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"><ul id="myUL">
+</style><body><div class="icon-bar">
 
-<li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a></li>
+<a href="https://jbmsantos0398.github.io/AUDIOS/" target="meu_iframe">🎙️</a>
+<a href="https://jbmsantos0398.github.io/DOCUMENTOS/" target="meu_iframe">📄</a>
+<a href="https://jbmsantos0398.github.io/IMAGENS/" target="meu_iframe">📷</a>
+<a href="https://jbmsantos0398.github.io/VIDEOS/" target="meu_iframe">🎞️</a>
+<a href="https://jbmsantos0398.github.io/OUTROS/" target="meu_iframe">🗂️</a>
 
-  <li><a href="#">Adele</a></li>
-  <li><a href="#">Agnes</a></li>
-
-  <li><a href="#">Billy</a></li>
-  <li><a href="#">Bob</a></li>
-
-  <li><a href="#">Calvin</a></li>
-  <li><a href="#">Christina</a></li>
-  <li><a href="#">Cindy</a></li>
-
-<li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a></li>
-
-
-
-
-</ul><script>
-function myFunction() {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
-}
-</script></body></html>
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-
-<!---------------------------------------------------------------------------------->
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a><hr class="new5">
-<!---------------------------------------------------------------------------------->
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">NOME⚫</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">NOME⚫</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">NOME⚫</a>
-
-
-<!---------------------------------------------------------------------------------->
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a><hr class="new5">
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!DOCTYPE html><html><head>
-<meta name="viewport" content="width=device-width, initial-scale=1"><style>
-.accordion {
-  background-color: #f6ff00;
-  color: #000000;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 22px;
-  transition: 0.4s;
-}
-.active, .accordion:hover {
-  background-color: #00ff08;
-}
-.accordion:after {
-  content: '\002B';
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-.active:after {
-  content: "\2212";
-}
-.panel {
-  padding: 0 18px;
-  background-color: #ccc;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-</style></head><body>
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<button class="accordion">&#9776; Section 1 &#9776;</button><div class="panel">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a>
-<!---------------------------------------------------------------------------------->
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-
-
-<!---------------------------------------------------------------------------------->
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a><hr class="new5"></div>
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<button class="accordion">Section 2 &#10515;</button><div class="panel">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a>
-<!---------------------------------------------------------------------------------->
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-
-
-<!---------------------------------------------------------------------------------->
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a><hr class="new5"></div>
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->                          
-<button class="accordion">Section 3 &#10515;</button><div class="panel">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a>
-<!---------------------------------------------------------------------------------->
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html"><FONT COLOR="#0008ff">NOME⚫</FONT></a>
-
-
-<!---------------------------------------------------------------------------------->
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a><hr class="new5"></div>
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!---------------------------------------------------------------------------------->
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a><hr class="new5">
-<!---------------------------------------------------------------------------------->
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">NOME⚫</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">NOME⚫</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">NOME⚫</a>
-
-
-<!---------------------------------------------------------------------------------->
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><FONT COLOR="red">Feche ×</FONT></a><hr class="new5">
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script></body></html>
-<!---------------------------------------------------------------------------------->
-<br/><br/><br/>
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-</div>
-
-<button class="button button3"openbtn" onclick="openNav()">&#9776; C A T E G O R I A S &#9776;</button>  
-
-<script>
-function openNav() {
-  document.getElementById("mySidepanel").style.width = "100%";
-}
-function closeNav() {
-  document.getElementById("mySidepanel").style.width = "0";
-}
-</script></body></html> 
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<center><h1>FORTALEZA, 18:39 10/02/2024</h1></center>
-<center><h2>BEM VINDO</h2></center>
-<!---------------------FAIXA AZUL-- _blank --- _self -----
-<a href="../../index.html" target="_self">
-<div height="100" style="background-color: blue;line-height: 100px;text-align: center;"><p style="color: white"><FONT SIZE=+4>INÍCIO</FONT></p></div></a>
-<!---------------------FAIXA AZUL-- _blank --- _self -----
-<a href="../../index.html" target="_self">
-<div height="100" style="background-color: blue;line-height: 50px;text-align: center;"><p style="color: white"><FONT SIZE=+2>INÍCIO</FONT></p></div></a><hr/>
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!------------------------------ SOMBRA ----------------------------------->
-<!DOCTYPE html><html><head>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple"><style>
-body {
-  font-family: "emboss", sans-serif;
-  font-size: 0px;
-}
-</style></head><body>
-<h1 class="font-effect-emboss"><center>Santos - 09:10 08/04/2024</center></h1>
-
-<!------------------------------------------------------------------------->
-<!------------------------------------------------------------------------->
-<!-----------------------RELOGIO NOVO RELÓGIO BOM------------------------>
-<CENTER><u><html><head><title></title></head><body><SCRIPT LANGUAGE="JAVASCRIPT">
-<!--
-var now = new Date();
-var mName = now.getMonth() +1 ;
-var dName = now.getDay() +1;
-var dayNr = now.getDate();
-var yearNr=now.getYear();
-if(dName==1) {Day = "Domingo";}
-if(dName==2) {Day = "Segunda-feira";}
-if(dName==3) {Day = "Terça-feira";}
-if(dName==4) {Day = "Quarta-feira";}
-if(dName==5) {Day = "Quinta-feira";}
-if(dName==6) {Day = "Sexta-feira";}
-if(dName==7) {Day = "Sábado";}
-if(mName==1){Month = "Janeiro";}
-if(mName==2){Month = "Fevereiro";}
-if(mName==3){Month = "Março";}
-if(mName==4){Month = "Abril";}
-if(mName==5){Month = "Maio";}
-if(mName==6){Month = "Junho";}
-if(mName==7){Month = "Julho";}
-if(mName==8){Month = "Agosto";}
-if(mName==9){Month = "Setembro";}
-if(mName==10){Month = "Outubro";}
-if(mName==11){Month = "Novembro";}
-if(mName==12){Month = "Dezembro";}
-if(yearNr < 2000) {Year = 1900 + yearNr;}
-else {Year = yearNr;}
-var todaysDate =(" " + Day + ", " + dayNr + "/" + Month + "/" + Year);
-document.write('  '+todaysDate);
-//-->
-</SCRIPT><mark>
-<SPAN ID="Clock">00:00:00</SPAN>
-<SCRIPT LANGUAGE="JavaScript">
-<!--
-  var Elem = document.getElementById("Clock");
-  function Horario(){ 
-    var Hoje = new Date(); 
-    var Horas = Hoje.getHours(); 
-    if(Horas < 10){ 
-      Horas = "0"+Horas; 
-    } 
-    var Minutos = Hoje.getMinutes(); 
-    if(Minutos < 10){ 
-      Minutos = "0"+Minutos; 
-    } 
-    var Segundos = Hoje.getSeconds(); 
-    if(Segundos < 10){ 
-      Segundos = "0"+Segundos; 
-    } 
-    Elem.innerHTML = Horas+":"+Minutos+":"+Segundos; 
-    } 
-    window.setInterval("Horario()",1000);
-//-->
-</SCRIPT></body></html></mark></u></CENTER>
-<!------------------------------------------------------------------>
-<hr class="rounded">
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!------------------------------------------------------------------>
-<!----------------------------LETRA SOMBRA--------
-<!DOCTYPE html><html><title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple"><style>
-.w3-lobster {
-  font-family: "Lobster", Sans-serif;
-}
-</style><body>
-
-<div class="w3-container w3-lobster">
-  <p class="w3-xxxlarge font-effect-shadow-multiple">Making the Web!</p>
-  <p class="w3-xxlarge font-effect-shadow-multiple">Making the Web!</p>
-  <p class="w3-xlarge font-effect-shadow-multiple">Making the Web!</p>
-</div>
-
-</body></html>
-
+</div></body></html> </div>
+<!----------------------------------------
+<div class="main">
+------------------------------------------>
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
 <!--##############################################################################-->
 <!--##############################################################################-->
-<!--#################################### INÍCIO ##################################-->
+<!--#########################################
+https://www.google.com/search?q=tradutor&newwindow=1&sca_esv=176d6bad4133e5b3&sxsrf=AE3TifNFF9qMcnUy_ga3OCNcHWPZIjbDOw%3A1749295066225&source=hp&ei=2h9EaMWnC9fc5OUPwPuziAI&iflsig=AOw8s4IAAAAAaEQt6gQ45lEOtk3kOidp7vKLcSD4BL6g&oq=&gs_lp=Egdnd3Mtd2l6IgAqAggBMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMg0QIxjwBRgnGMkCGOoCMg0QIxjwBRgnGMkCGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCSLULUABYAHABeACQAQCYAQCgAQCqAQC4AQHIAQCYAgGgAg2oAgqYAw3xBSzcm-KEfo3CkgcBMaAHALIHALgHAMIHAzMtMcgHCQ&sclient=gws-wiz
+#####################################-->
 <!--##############################################################################-->
 <!--##############################################################################-->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<BR/><BR/><HR/><HR/>
 <!---------------------------------------------------------------------------------->
-
-Olá
-
-
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!--------------------------------------------------------------------------------->
+<iframe width="100%" height="91%" src="index_arquivos/AVISOS.html" name="meu_iframe"></iframe>
+<!---------------------------------------------------------------------------------->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!--------------------------------------------------------------------------------->
 
 
 
@@ -538,6 +173,23 @@ Olá
 <!--##############################################################################-->
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<center>
+<!---------------------------------------------------------------------------------->
+<!-----------------------------------RODAPÉ----------------------------------->
+<!---------------------------------------------------------------------------------->
+<!------------------------------------------
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+</style></head><body><a href="../1 - Copia.html"><P><div class="footer"><FONT SIZE=+3><B>VOLTAR AO MENU</B></FONT></div></P></a></body></html> 
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
@@ -600,22 +252,23 @@ Olá
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
 <!DOCTYPE html><html><head>
 <meta name="viewport" content="width=device-width, initial-scale=1"><style>
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 60px;
+  right: 3px;
   z-index: 99;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: BLUE;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -625,6 +278,7 @@ body {
   background-color: #555;
 }
 </style></head><body>
+<!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
 <button onclick="topFunction()" id="myBtn" title="Go to top">Topo</button>
 <!----------------------------------
@@ -654,7 +308,6 @@ function topFunction() {
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
 <!DOCTYPE html><html><meta name="viewport" content="width=device-width, initial-scale=1"><head><style>
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -677,12 +330,15 @@ hr.rounded {
   border-radius: 5px;
 }
 </style></head><body>
-<!------------------------------------------
+<!----------------------------------------------
 <hr class="dashed">
+
 <hr class="dotted">
+
 <hr class="solid">
+
 <hr class="rounded">
------------------------------------------->
+-------------------------------------->
 </body></html>
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
@@ -741,7 +397,7 @@ h1 {
   text-shadow: 2px 2px 4px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 </style></head><body></body></html>
-<!-------------------------------
+<!----------------------------------------
 <!DOCTYPE html><html><head><style>
 .pagination {
   display: inline-block;
@@ -771,39 +427,14 @@ h1 {
 
 </div></body></html>
 <!----------------------------------------------------------->
+<!-------------------------------------------
+<hr class="new1">
 <!----------------------------------------------------------->
-<hr/>
-<!----------------------------------------------------------->
-<!----------------------------------------------------------->
+<!----------------------------------------
 <center><p style="color: blue; font-size: 8pt;">Santos - 02:31 30/05/2023 | fs2016 © - Ⓒ<br/><a target="_blank" href="
 https://wa.me/5585988885153?text=SANTOS%20QUERO%20DIZER%20QUE%20
 ">Whatsapp.</a></p></center>
+<!-------------------------------
+<HR WIDTH="20%" NOSHADE SIZE="5" color="#00ff00"><BR/><BR/><BR/>
 <!----------------------------------------------------------->
-<HR WIDTH="20%" NOSHADE SIZE="5" color="#00ff00"><br/><br/><br/>
-<!----------------------------------------------------------->
-</div></body></html></center></body></html></div>
-<!---------------------------------------------------------------------------------->
-<!-----------------------------------RODAPÉ----------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><style>
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
-}
-</style></head><body>
-
-<div class="footer"><button class="button button3"openbtn" onclick="openNav()">&#9776; C A T E G O R I A S &#9776;</button></div>
-<!---------------------------------------
-<button class="openbtn" onclick="openNav()"><div class="footer"><FONT SIZE=+3><B>&#9776; C A T E G O R I A S &#9776;</B></FONT></div></button> 
------------------------------------->
-</body></html> 
-<!---------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------->
-</body></html>
+</div></body></html></center></body></html></div></body></html>
